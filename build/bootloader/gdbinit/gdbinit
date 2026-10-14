@@ -1,0 +1,2 @@
+source /home/aditya/workspace/Drone/build/bootloader/gdbinit/symbols
+source /home/aditya/workspace/Drone/build/bootloader/gdbinit/connect

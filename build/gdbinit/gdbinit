@@ -1,0 +1,2 @@
+source /home/aditya/workspace/Drone/build/gdbinit/symbols
+source /home/aditya/workspace/Drone/build/gdbinit/connect
