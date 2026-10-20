@@ -120,3 +120,5 @@
 8593	9312	1791973442219047755	/home/aditya/workspace/Drone/build/bootloader/.bin_timestamp	1d2df55628b5825f
 9312	9508	1791973442219047755	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b5839c05b652d23c
 9312	9508	1791973442219047755	/home/aditya/workspace/Drone/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b5839c05b652d23c
+30	257	1792507571898216949	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b5839c05b652d23c
+30	257	1792507571898216949	/home/aditya/workspace/Drone/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b5839c05b652d23c

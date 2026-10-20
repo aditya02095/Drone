@@ -97,8 +97,7 @@ esp_err_t motor_set(int pwm_pin, float duty_percent)
         channel_initialized[index] = true;
 	}
 
-    uint32_t duty =
-        (uint32_t)((duty_percent / 100.0f) * PWM_MAX_DUTY);
+    uint32_t duty = (uint32_t)((duty_percent / 100.0f) * PWM_MAX_DUTY);
 
     err = ledc_set_duty(
         PWM_MODE,
