@@ -1240,7 +1240,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/aditya/workspace/Drone/build/esp-idf/main/libmain.a",
-            "sources": [ "/home/aditya/workspace/Drone/main/main.c", "/home/aditya/workspace/Drone/main/mpu6050.c", "/home/aditya/workspace/Drone/main/motor.c", "/home/aditya/workspace/Drone/main/receiver.c", "/home/aditya/workspace/Drone/main/pid.c", "/home/aditya/workspace/Drone/main/motormixer.c" ],
+            "sources": [ "/home/aditya/workspace/Drone/main/main.c", "/home/aditya/workspace/Drone/main/receiver.c", "/home/aditya/workspace/Drone/main/accelo.c" ],
             "include_dirs": []
         },
         "mbedtls": {

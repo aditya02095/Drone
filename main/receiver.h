@@ -1,36 +1,9 @@
-#ifndef RECEIVER_H
-#define RECEIVER_H
+#ifndef PWM_READER_H
+#define PWM_READER_H
 
-#include "driver/uart.h"
+#include "driver/gpio.h"
 #include "esp_err.h"
-#include <stdint.h>
-#include <stdbool.h>
 
-#define IBUS_UART          UART_NUM_1
-
-#define IBUS_TX_PIN        UART_PIN_NO_CHANGE
-#define IBUS_RX_PIN        16
-
-#define IBUS_BAUDRATE      115200
-
-typedef struct
-{
-    uint16_t ch1;
-    uint16_t ch2;
-    uint16_t ch3;
-    uint16_t ch4;
-    uint16_t ch5;
-    uint16_t ch6;
-} receiver_t;
-
-esp_err_t receiver_init(void);
-esp_err_t receiver_update(void);
-
-uint16_t receiver_get_roll(void);
-uint16_t receiver_get_pitch(void);
-uint16_t receiver_get_throttle(void);
-uint16_t receiver_get_yaw(void);
-uint16_t receiver_get_aux1(void);
-uint16_t receiver_get_aux2(void);
+esp_err_t pwm_reader_init(gpio_num_t pwm_pin, volatile float *duty_percent);
 
 #endif

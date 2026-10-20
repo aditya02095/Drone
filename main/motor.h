@@ -1,18 +1,8 @@
-#ifndef MAIN_MOTOR_H_
-#define MAIN_MOTOR_H_
+#ifndef PWM_OUTPUT_H
+#define PWM_OUTPUT_H
 
-#include "driver/ledc.h"
-#include <stdint.h>
+#include "esp_err.h"
 
-#define MOTOR1      14
-#define MOTOR2      27
-#define MOTOR3      25
-#define MOTOR4      33
-
-#define ESC_FREQ       50
-#define ESC_RES        LEDC_TIMER_16_BIT
-
-void motor_init(void);
-void motorspeed(int motorpin, uint16_t setspeed);
+esp_err_t motor_set(int pwm_pin, float duty_percent);
 
 #endif
